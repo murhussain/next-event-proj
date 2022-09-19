@@ -15,4 +15,14 @@ function AllEventsPage() {
   );
 }
 
+export async function getStaticProps(context){
+  return{
+    props:{
+      featuredEvents:[
+        
+      ]
+    }
+  }
+}
+
 export default AllEventsPage;
