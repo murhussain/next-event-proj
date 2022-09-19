@@ -14,15 +14,3 @@ function AllEventsPage() {
     </Fragment>
   );
 }
-
-export async function getStaticProps(context){
-  return{
-    props:{
-      featuredEvents:[
-        
-      ]
-    }
-  }
-}
-
-export default AllEventsPage;
