@@ -44,7 +44,6 @@ function Comments(props) {
       <button onClick={toggleCommentsHandler}>
         {showComments ? 'Hide' : 'Show'} Comments
       </button>
-
       {/* if button clicked then open inputText for saving comments */}
       {showComments && <NewComment onAddComment={addCommentHandler} />}
 
